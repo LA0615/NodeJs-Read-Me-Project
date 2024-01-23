@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
+const fs = require("fs");
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -9,13 +11,13 @@ const questions = [
      message: 'What is the title of your project?'
     },
     {
-     type: 'editor',
+     type: 'input',
      name: 'description',
      message: 'Describe your project.',
     },
     {
-    type: 'editor',
-    name: 'installation instructions',
+    type: 'input',
+    name: 'installationInstructions',
     message: 'Please enter the instructions for installation of the app.',
     },
     {
@@ -29,13 +31,13 @@ const questions = [
     message: 'Did anyone help contribute to this project?',
     },
     {
-    type: 'editor',
-    name: 'test instructions',
+    type: 'input',
+    name: 'testInstructions',
     message: 'What are the instructions for using and running this app?',
     },
     {
      type: 'list',
-     name: 'license list',
+     name: 'licenseList',
      message: 'Please choose one license from the given list to use for your readme.',
     choices: ['Apache','Boost', 'IBM',  'MIT', 'Mozilla'],
     },
@@ -52,18 +54,30 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+      if (err) {
+        console.error('Error writing README file:', err);
+      } else {
+        console.log('README file written successfully!');
+      }
+    });
+  }
 
 // TODO: Create a function to initialize app
 function init() {
+    // Prompt the user with the questions and collect their responses
     inquirer.prompt(questions)
-    .then((answers) => {
-      // Log the user's responses
-      console.log('User Responses:', answers);
+      .then((answers) => {
+        const readmeContent = generateMarkdown(answers);
+        const fileName = 'README.md';
+        writeToFile(fileName, readmeContent);
+      })
       .catch((error) => {
         console.error('Error occurred:', error);
-      };
-    }
+      });
+  }
+  
 
 // Function call to initialize app
 init();
