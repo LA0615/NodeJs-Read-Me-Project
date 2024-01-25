@@ -1,8 +1,8 @@
 
-  # This is my readme project [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  # This is a readme project [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  you answer the questions and then click a license link
+  User inputs readme information and it is displayed in the correct areas of the readme. 
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -14,26 +14,26 @@
   7. [Questions](#questions)
 
   ## Installation
-  Just answer and then the information will be displayed
+  Please input your answers.
 
   ## Usage
-  just answer
+  Just type or click.
 
   ## Contributing
   no
 
   ## Tests
-  no
+  type and click.
 
   ## License
-  This project is licensed under the Mozilla License 2.0.
+  This project is licensed under the MIT License.
 
   ## Badges
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  For more information, visit [Mozilla License](https://opensource.org/licenses/MPL-2.0).
+  For more information, visit [MIT License](https://opensource.org/licenses/MIT).
 
   ## Questions
-  GitHub: [la0615](https://github.com/la0615)
-  Email: live2run_1980@yahoo.com
+  GitHub: [LA0615](https://github.com/LA0615)
+  Email: Live2run_1980@yahoo.com
   
