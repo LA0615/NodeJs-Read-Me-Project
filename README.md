@@ -1,8 +1,8 @@
 
-  # This is my Read Me project [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # This is my readme project [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Description
-  Input your readme information and then click a link to display the badge and license
+  you answer the questions and then click a license link
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -10,28 +10,28 @@
   3. [Contributing](#contributing)
   4. [Tests](#tests)
   5. [License](#license)
-  6. [Badges](#Badges)
+  6. [Badges](#badges)
   7. [Questions](#questions)
 
   ## Installation
-  enter your information and then click the links
+  Just answer and then the information will be displayed
 
   ## Usage
-  just enter info
+  just answer
 
   ## Contributing
   no
 
   ## Tests
-  just click and run
+  no
 
   ## License
-  This project is licensed under the MIT License.
+  This project is licensed under the Mozilla License 2.0.
 
   ## Badges
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-  For more information, visit [MIT License](https://opensource.org/licenses/MIT).
+  For more information, visit [Mozilla License](https://opensource.org/licenses/MPL-2.0).
 
   ## Questions
   GitHub: [la0615](https://github.com/la0615)

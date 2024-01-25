@@ -13,7 +13,7 @@ function generateMarkdown(data) {
   3. [Contributing](#contributing)
   4. [Tests](#tests)
   5. [License](#license)
-  6. [Badges](#Badges)
+  6. [Badges](#badges)
   7. [Questions](#questions)
 
   ## Installation
